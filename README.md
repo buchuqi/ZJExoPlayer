@@ -1,4 +1,7 @@
 # ZJExoPlayer
+![](https://github.com/buchuqi/ZJExoPlayer/blob/master/image/device-2017-09-04-172315.png)
+![](https://github.com/buchuqi/ZJExoPlayer/blob/master/image/device-2017-09-04-171905.png)
+
 
 功能：
 
