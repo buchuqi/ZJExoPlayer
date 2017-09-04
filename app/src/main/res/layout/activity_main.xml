@@ -17,6 +17,7 @@
         app:player_layout_id="@layout/simple_exo_view"
         app:resize_mode="fit"
         app:rewind_increment="0"
+        app:seekbar_allwayshow="true"
         app:show_timeout="3000"
         app:support_lock_screen="true"
         app:support_switch_resolution="false"

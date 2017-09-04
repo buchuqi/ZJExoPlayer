@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
         exoPlayerView = (ExoPlayerView) findViewById(R.id.exo_play_context_id);
         exoPlayerView.initPlayer(ExoPlayerType.Standard)
-                .setPlayUri("http://v.cctv.com/flash/mp4video6/TMS/2011/01/05/cf752b1c12ce452b3040cab2f90bc265_h264818000nero_aac32-1.mp4")
+                .setPlayUri("http://vodcdn.yst.vodjk.com/201709041819/26c6e98559fb97c51b28bfbc94702fc2/company/1/2016/12/16/1012157qqxpx2cwl2rtipjsjor/sd/9b9368ccccda4a55bc1234ad5e13cd61.m3u8")
                 .loadArtWork("http://i3.letvimg.com/lc08_yunzhuanma/201707/29/20/49/3280a525bef381311b374579f360e80a_v2_MTMxODYyNjMw/thumb/2_960_540.jpg")
                 .isAutoLandScreen(true)
                 .isLockScreen(true)
