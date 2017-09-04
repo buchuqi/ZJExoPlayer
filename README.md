@@ -35,7 +35,7 @@
         exo:player_layout_id="@layout/simple_exo_view"
         exo:resize_mode="fit"
         exo:rewind_increment="0"
-        exo:seekbar_allwayshow="true"
+        exo:seekbar_allwayshow="true"         <!--进度条一直显示,false的话如果是直播流不显示-->
         exo:show_timeout="3000"               <!--点击显示时长-->
         exo:support_lock_screen="true"        <!--是否支持锁屏-->
         exo:support_switch_resolution="false" <!--是否支持清晰度切换-->
