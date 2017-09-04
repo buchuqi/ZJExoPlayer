@@ -1,5 +1,18 @@
 # ZJExoPlayer
 
+功能：
+
+* 支持锁屏
+* 支持试看功能
+* 支持StatusBar状态类
+* 支持自适应横竖屏切换
+* 支持声音、亮度、进度手势操作
+* 支持广告播放，然后播放视频内容
+* 支持多种播放格式支持HTTP直播了（HLS),MP4,MP3,WebM,M4A,MPEG-TS 和 AAC(基于exoplayer) 
+
+
+
+
 # Xml里配置
 ```
 
