@@ -1,0 +1,9 @@
+<resources>
+
+    <!--答题界面对话框样式-->
+    <style name="DialogDoubleBtn" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/shape_exo_dialog_gb</item>
+    </style>
+
+</resources>

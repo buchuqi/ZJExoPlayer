@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?><!--答题界面的对话框的背景-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#ffffff" />
+    <corners android:radius="5dp" />
+</shape>

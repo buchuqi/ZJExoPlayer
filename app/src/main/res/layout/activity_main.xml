@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <vodjk.com.exoplayerlib.widget.ExoPlayerView
+        android:id="@+id/exo_play_context_id"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@android:color/transparent"
+        app:controller_layout_id="@layout/simple_exo_playback_control_view"
+        app:fastforward_increment="0"
+        app:paddingEnd="0dp"
+        app:paddingStart="0dp"
+        app:player_layout_id="@layout/simple_exo_view"
+        app:resize_mode="fit"
+        app:rewind_increment="0"
+        app:show_timeout="3000"
+        app:support_lock_screen="true"
+        app:support_switch_resolution="false"
+        app:surface_type="surface_view"
+        app:topbar_transparent="false"
+        app:use_artwork="true"
+        app:use_controller="true" />
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="btn" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

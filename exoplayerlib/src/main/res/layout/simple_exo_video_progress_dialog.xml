@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/exo_video_dialog_pro_layout"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/simple_video_dialog_progress_bg"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/exo_video_dialog_pro_img"
+            android:layout_width="36dp"
+            android:layout_height="27dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:contentDescription="@null" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/exo_video_dialog_pro_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/simple_exo_style_color"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/exo_video_dialog_duration_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffffff"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/exo_video_pro"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_margin="10dp"
+            android:max="100"
+            android:progressDrawable="@drawable/simple_video_dialog_progress" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
