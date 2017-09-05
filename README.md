@@ -4,7 +4,7 @@
 ![](https://github.com/buchuqi/ZJExoPlayer/blob/master/images/device-2017-09-04-175315.png)
 ![](https://github.com/buchuqi/ZJExoPlayer/blob/master/images/device-2017-09-04-175705.png)
 
-功能：
+功能(整个视频播放器集成2M左右)：
 
 * 支持锁屏
 * 支持试看功能
